@@ -17,12 +17,6 @@
             devShells.default = pkgs.mkShell {
                name = "c-dev-shell";
 
-               # packages = [
-               #    pkgs.clang
-               #    pkgs.gnumake
-               #    pkgs.gdb
-               #    pkgs.llvmPackages_17.bintools
-               # ];
                packages = [
                   pkgs.clang 
                   pkgs.clang-tools         # adds clangd, clang-format, clang-tidy
