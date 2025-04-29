@@ -38,7 +38,7 @@
 
                shellHook = ''
                   export CC=clang
-                  export CXX=clang+
+                  export CXX=clang++
                   echo "Welcome to the C/LLVM development environment for ${system}!"
                '';
             };
